@@ -1,4 +1,5 @@
 include hadoop
+include hive
 group { "puppet":
   ensure => "present",
 }
