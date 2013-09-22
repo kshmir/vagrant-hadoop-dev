@@ -5,9 +5,9 @@ Vagrant setup for a hadoop development environment.
 
 ## How to run this
 
-```./download_libs.sh```
-```vagrant box add base-hadoop http://files.vagrantup.com/lucid64.box```
-```vagrant up # Take some coffee...```
+    ./download_libs.sh
+    vagrant box add base-hadoop http://files.vagrantup.com/lucid64.box
+    vagrant up # Take some coffee...
 
 
 ### Booting up the hadoop cluster
