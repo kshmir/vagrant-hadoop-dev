@@ -1,5 +1,8 @@
 include hadoop
 include hive
+include pig
+include hbase
+
 group { "puppet":
   ensure => "present",
 }
