@@ -8,7 +8,8 @@ Vagrant setup for a hadoop development environment.
     ./download_libs.sh
     vagrant box add base-hadoop http://files.vagrantup.com/lucid64.box
     vagrant up # Take some coffee...
-
+    As soon as you get in... ```cd /vagrant``` ```source
+set_environment.zsh```
 
 ### Booting up the hadoop cluster
 
