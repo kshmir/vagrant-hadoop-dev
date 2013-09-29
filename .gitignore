@@ -1,3 +1,5 @@
 /.vagrant
 /modules/*/*/*.tar.gz
 /downloads
+/*.log
+/data/*
