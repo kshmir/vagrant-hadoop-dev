@@ -4,6 +4,7 @@
 Vagrant::Config.run do |config|
   config.vm.box = "base-hadoop"
   config.vm.share_folder "data", "/vagrant/data", "../data"
+  config.vm.share_folder "scripts", "/vagrant/scripts", "../scripts"
   config.vm.provision :puppet do |puppet|
      puppet.manifests_path = "manifests"
      puppet.manifest_file  = "base-hadoop.pp"
