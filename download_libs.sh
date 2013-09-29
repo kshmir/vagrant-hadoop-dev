@@ -10,9 +10,9 @@ echo "Downloading pig"
 wget -nc -O downloads/pig.tar.gz http://apache.xfree.com.ar/pig/pig-0.11.1/pig-0.11.1.tar.gz
 
 echo "Downloading hbase"
-wget -nc -O downloads/hbase.tar.gz http://apache.xfree.com.ar/hbase/stable/hbase-0.94.11.tar.gz
+wget -nc -O downloads/hbase.tar.gz http://apache.xfree.com.ar/hbase/hbase-0.94.11/hbase-0.94.11.tar.gz
 
-mv downloads/hadoop.tar.gz modules/hadoop/files
-mv downloads/hive.tar.gz modules/hive/files
-mv downloads/pig.tar.gz modules/pig/files
-mv downloads/hbase.tar.gz modules/hbase/files
+cp downloads/hadoop.tar.gz modules/hadoop/files
+cp downloads/hive.tar.gz modules/hive/files
+cp downloads/pig.tar.gz modules/pig/files
+cp downloads/hbase.tar.gz modules/hbase/files
